@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-You'd use this with something like the following piece of HAML:
+In your Nesta `/views` folder, declare a `related_articles.haml` with something like the following:
 
     - if has_related_articles?(@page)
       %section.related-articles
@@ -30,7 +30,7 @@ You'd use this with something like the following piece of HAML:
             %li
               %a(href="#{article.abspath}")= article.heading
 
-Then, at the bottom of your template file (page.haml is default), require it:
+Then, at the bottom of your template file (page.haml is default), reference it:
 
     = haml :related_articles, :layout => false
 
