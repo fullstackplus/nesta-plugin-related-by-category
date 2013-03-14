@@ -30,7 +30,7 @@ In your Nesta `/views` folder, declare a `related_articles.haml` with something 
             %li
               %a(href="#{article.abspath}")= article.heading
 
-Then, at the bottom of your template file (`page.haml is default), reference it:
+Then, at the bottom of your template file (`page.haml` is default), reference it:
 
     = haml :related_articles, :layout => false
 
