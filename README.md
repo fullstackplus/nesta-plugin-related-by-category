@@ -2,7 +2,7 @@
 
 A plugin for finding related articles to a Nesta article, based on a dead-simple idea:
 
-*Given pages A and B, the more categories A and B have in common, the higher B's relevance to A.
+**Given pages A and B, the more categories A and B have in common, the higher B's relevance to A.**
 
 ## Installation
 
